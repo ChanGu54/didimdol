@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>확정일자 부여현황 정보</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+            position: sticky;
+            top: 0;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+        .money {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>확정일자 부여현황</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>확정일자 부여일</th>
+                <th>번호</th>
+                <th>기타주소</th>
+                <th>임대차 기간(시작)</th>
+                <th>임대차 기간(종료)</th>
+                <th>보증금</th>
+                <th>차임</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2024-03-15</td>
+                <td>0000722</td>
+                <td>303호</td>
+                <td>2024-03-15</td>
+                <td>2026-03-14</td>
+                <td class="money">130,000,000</td>
+                <td>없음</td>
+            </tr>
+            <tr>
+                <td>2024-02-19</td>
+                <td>0000437</td>
+                <td>지1층 B01호</td>
+                <td>2024-03-16</td>
+                <td>2026-03-15</td>
+                <td class="money">140,000,000</td>
+                <td>없음</td>
+            </tr>
+            <tr>
+                <td>2024-01-02</td>
+                <td>0002465</td>
+                <td>406호</td>
+                <td>2024-01-29</td>
+                <td>2026-01-28</td>
+                <td class="money">130,000,000</td>
+                <td>없음</td>
+            </tr>
+            <tr>
+                <td>2024-01-02</td>
+                <td>0002464</td>
+                <td>406호</td>
+                <td>2024-01-11</td>
+                <td>2026-01-10</td>
+                <td class="money">130,000,000</td>
+                <td>없음</td>
+            </tr>
+            <tr>
+                <td>2023-12-27</td>
+                <td>0002429</td>
+                <td>1층 (문패상 105호)</td>
+                <td>2023-12-26</td>
+                <td>2025-12-25</td>
+                <td class="money">20,000,000</td>
+                <td class="money">500,000</td>
+            </tr>
+            <tr>
+                <td>2023-12-19</td>
+                <td>0002389</td>
+                <td>406호</td>
+                <td>2024-01-11</td>
+                <td>2026-01-10</td>
+                <td class="money">145,000,000</td>
+                <td>없음</td>
+            </tr>
+            <tr>
+                <td>2023-12-04</td>
+                <td>0002305</td>
+                <td>3층 문패상 302호</td>
+                <td>2024-01-08</td>
+                <td>2026-01-07</td>
+                <td class="money">130,000,000</td>
+                <td>없음</td>
+            </tr>
+            <tr>
+                <td>2023-11-20</td>
+                <td>0002242</td>
+                <td>4층 405호</td>
+                <td>2023-12-15</td>
+                <td>2024-12-14</td>
+                <td class="money">160,000,000</td>
+                <td>없음</td>
+            </tr>
+            <tr>
+                <td>2023-11-14</td>
+                <td>0002222</td>
+                <td>4층 406호</td>
+                <td>2021-12-28</td>
+                <td>2023-12-27</td>
+                <td class="money">120,000,000</td>
+                <td>없음</td>
+            </tr>
+            <tr>
+                <td>2023-10-25</td>
+                <td>0002151</td>
+                <td>501호</td>
+                <td>2023-10-25</td>
+                <td>2025-10-24</td>
+                <td class="money">50,000,000</td>
+                <td class="money">1,100,000</td>
+            </tr>
+            <tr>
+                <td>2023-04-14</td>
+                <td>0000979</td>
+                <td>2층 201호</td>
+                <td>2023-04-19</td>
+                <td>2025-04-18</td>
+                <td class="money">140,000,000</td>
+                <td>없음</td>
+            </tr>
+            <tr>
+                <td>2023-03-24</td>
+                <td>0000841</td>
+                <td>1층 101호</td>
+                <td>2023-03-24</td>
+                <td>2024-03-23</td>
+                <td class="money">40,000,000</td>
+                <td class="money">420,000</td>
+            </tr>
+            <tr>
+                <td>2023-01-30</td>
+                <td>0000254</td>
+                <td>1층 102호</td>
+                <td>2023-01-29</td>
+                <td>2025-01-28</td>
+                <td class="money">20,000,000</td>
+                <td class="money">500,000</td>
+            </tr>
+            <tr>
+                <td>2023-01-11</td>
+                <td>0000099</td>
+                <td>제104호</td>
+                <td>2023-01-11</td>
+                <td>2024-08-10</td>
+                <td class="money">20,000,000</td>
+                <td class="money">630,000</td>
+            </tr>
+            <tr>
+                <td>2022-12-26</td>
+                <td>0002572</td>
+                <td>제106호</td>
+                <td>2022-12-24</td>
+                <td>2023-12-23</td>
+                <td class="money">40,000,000</td>
+                <td class="money">370,000</td>
+            </tr>
+            <tr>
+                <td>2022-11-10</td>
+                <td>0002329</td>
+                <td>3층 304호</td>
+                <td>2022-11-10</td>
+                <td>2024-11-09</td>
+                <td class="money">170,000,000</td>
+                <td>없음</td>
+            </tr>
+            <tr>
+                <td>2022-09-27</td>
+                <td>0002098</td>
+                <td>3층 304호</td>
+                <td>2022-11-10</td>
+                <td>2024-11-09</td>
+                <td class="money">170,000,000</td>
+                <td>없음</td>
+            </tr>
+            <tr>
+                <td>2022-09-13</td>
+                <td>0002017</td>
+                <td>501호</td>
+                <td>2022-08-14</td>
+                <td>2024-08-13</td>
+                <td class="money">90,000,000</td>
+                <td class="money">830,000</td>
+            </tr>
+            <tr>
+                <td>2022-08-24</td>
+                <td>0001909</td>
+                <td>501호</td>
+                <td>2022-08-14</td>
+                <td>2024-08-13</td>
+                <td class="money">100,000,000</td>
+                <td class="money">800,000</td>
+            </tr>
+            <tr>
+                <td>2022-06-29</td>
+                <td>0001571</td>
+                <td>302호</td>
+                <td>2022-06-29</td>
+                <td>2024-06-28</td>
+                <td class="money">140,000,000</td>
+                <td>없음</td>
+            </tr>
+            <tr>
+                <td>2022-05-20</td>
+                <td>0001258</td>
+                <td>305호</td>
+                <td>2022-06-20</td>
+                <td>2024-06-19</td>
+                <td class="money">140,000,000</td>
+                <td>없음</td>
+            </tr>
+            <tr>
+                <td>2022-04-29</td>
+                <td>0001005</td>
+                <td>102호</td>
+                <td>2022-01-06</td>
+                <td>2024-01-06</td>
+                <td class="money">5,000,000</td>
+                <td class="money">500,000</td>
+            </tr>
+            <tr>
+                <td>2022-02-09</td>
+                <td>0000343</td>
+                <td>101호</td>
+                <td>2022-02-01</td>
+                <td>2023-01-31</td>
+                <td class="money">10,000,000</td>
+                <td class="money">500,000</td>
+            </tr>
+            <tr>
+                <td>2022-01-10</td>
+                <td>0000064</td>
+                <td>302호</td>
+                <td>2022-01-10</td>
+                <td>2024-01-09</td>
+                <td class="money">130,000,000</td>
+                <td>없음</td>
+            </tr>
+            <tr>
+                <td>2021-12-14</td>
+                <td>7000074</td>
+                <td>3층 306호</td>
+                <td>2021-12-30</td>
+                <td>2023-12-29</td>
+                <td class="money">140,000,000</td>
+                <td>없음</td>
+            </tr>
+            <tr>
+                <td>2021-12-13</td>
+                <td>7000067</td>
+                <td>3층 301호</td>
+                <td>2022-01-16</td>
+                <td>2024-01-16</td>
+                <td class="money">140,000,000</td>
+                <td>없음</td>
+            </tr>
+            <tr>
+                <td>2021-12-31</td>
+                <td>0002155</td>
+                <td>204호</td>
+                <td>2022-01-29</td>
+                <td>2024-01-28</td>
+                <td class="money">160,000,000</td>
+                <td>없음</td>
+            </tr>
+            <tr>
+                <td>2021-12-28</td>
+                <td>0002123</td>
+                <td>203호</td>
+                <td>2022-01-25</td>
+                <td>2024-01-25</td>
+                <td class="money">130,000,000</td>
+                <td class="money">50,000</td>
+            </tr>
+            <tr>
+                <td>2021-12-28</td>
+                <td>0002117</td>
+                <td>201호</td>
+                <td>2022-01-20</td>
+                <td>2024-01-20</td>
+                <td class="money">140,000,000</td>
+                <td>없음</td>
+            </tr>
+            <tr>
+                <td>2021-12-23</td>
+                <td>0002090</td>
+                <td>405호</td>
+                <td>2022-01-31</td>
+                <td>2024-01-31</td>
+                <td class="money">160,000,000</td>
+                <td>없음</td>
+            </tr>
+            <tr>
+                <td>2021-12-21</td>
+                <td>0002077</td>
+                <td>디딤돌 402호</td>
+                <td>2022-01-07</td>
+                <td>2024-01-06</td>
+                <td class="money">130,000,000</td>
+                <td class="money">50,000</td>
+            </tr>
+            <tr>
+                <td>2021-12-17</td>
+                <td>0002045</td>
+                <td>106호</td>
+                <td>2022-01-01</td>
+                <td>2022-12-31</td>
+                <td class="money">20,000,000</td>
+                <td class="money">450,000</td>
+            </tr>
+            <tr>
+                <td>2021-12-15</td>
+                <td>0002037</td>
+                <td>407호</td>
+                <td>2021-12-27</td>
+                <td>2023-12-26</td>
+                <td class="money">140,000,000</td>
+                <td>없음</td>
+            </tr>
+            <tr>
+                <td>2021-12-15</td>
+                <td>0002035</td>
+                <td>201호</td>
+                <td>2021-12-30</td>
+                <td>2023-12-30</td>
+                <td class="money">140,000,000</td>
+                <td>없음</td>
+            </tr>
+            <tr>
+                <td>2021-12-15</td>
+                <td>0002034</td>
+                <td>403호</td>
+                <td>2021-12-30</td>
+                <td>2023-12-29</td>
+                <td class="money">130,000,000</td>
+                <td class="money">50,000</td>
+            </tr>
+            <tr>
+                <td>2021-12-13</td>
+                <td>0002025</td>
+                <td>202호</td>
+                <td>2021-12-24</td>
+                <td>2023-12-23</td>
+                <td class="money">140,000,000</td>
+                <td>없음</td>
+            </tr>
+            <tr>
+                <td>2021-12-13</td>
+                <td>0002023</td>
+                <td>디딤돌 402호</td>
+                <td>2021-12-29</td>
+                <td>2023-12-28</td>
+                <td class="money">130,000,000</td>
+                <td class="money">50,000</td>
+            </tr>
+            <tr>
+                <td>2021-12-13</td>
+                <td>0002022</td>
+                <td>206호</td>
+                <td>2022-01-03</td>
+                <td>2024-01-02</td>
+                <td class="money">130,000,000</td>
+                <td class="money">50,000</td>
+            </tr>
+            <tr>
+                <td>2021-12-13</td>
+                <td>0002021</td>
+                <td>302호</td>
+                <td>2022-01-01</td>
+                <td>2023-12-31</td>
+                <td class="money">130,000,000</td>
+                <td>없음</td>
+            </tr>
+            <tr>
+                <td>2021-12-13</td>
+                <td>0002020</td>
+                <td>501호</td>
+                <td>2021-12-16</td>
+                <td>2022-12-15</td>
+                <td class="money">40,000,000</td>
+                <td class="money">900,000</td>
+            </tr>
+            <tr>
+                <td>2021-12-10</td>
+                <td>0002001</td>
+                <td>401호</td>
+                <td>2022-01-06</td>
+                <td>2024-01-05</td>
+                <td class="money">130,000,000</td>
+                <td class="money">50,000</td>
+            </tr>
+            <tr>
+                <td>2021-12-10</td>
+                <td>0001996</td>
+                <td>디딤돌 306호</td>
+                <td>2021-01-15</td>
+                <td>2023-01-14</td>
+                <td class="money">140,000,000</td>
+                <td>없음</td>
+            </tr>
+            <tr>
+                <td>2021-12-09</td>
+                <td>0001990</td>
+                <td>3층 303호</td>
+                <td>2021-12-30</td>
+                <td>2023-12-30</td>
+                <td class="money">140,000,000</td>
+                <td>없음</td>
+            </tr>
+            <tr>
+                <td>2021-12-15</td>
+                <td>27902</td>
+                <td>비02호</td>
+                <td>2022-01-05</td>
+                <td>2024-01-04</td>
+                <td class="money">110,000,000</td>
+                <td>없음</td>
+            </tr>
+            <tr>
+                <td>2021-12-10</td>
+                <td>27602</td>
+                <td>304호</td>
+                <td>2022-01-04</td>
+                <td>2024-01-03</td>
+                <td class="money">160,000,000</td>
+                <td>없음</td>
+            </tr>
+            <tr>
+                <td>2021-01-21</td>
+                <td>0000189</td>
+                <td>405호</td>
+                <td>2022-01-31</td>
+                <td>2024-01-31</td>
+                <td class="money">160,000,000</td>
+                <td>없음</td>
+            </tr>
+            <tr>
+                <td>2021-12-15</td>
+                <td>27895</td>
+                <td>306호</td>
+                <td>2021-12-30</td>
+                <td>2023-12-29</td>
+                <td class="money">140,000,000</td>
+                <td>없음</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
